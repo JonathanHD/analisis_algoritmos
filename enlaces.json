@@ -1,0 +1,87 @@
+[
+	{
+		"id": 0,
+		"nombre": "A",
+		"enlaces": [
+			{ "id": 1,
+			"coste":  2 },
+			{ "id": 2,
+			"coste":  5 },
+			{ "id": 3,
+			"coste":  7 }
+		] 
+	},
+	{
+		"id": 1,
+		"nombre": "B",
+		"enlaces": [
+			{ "id": 4,
+			"coste":  3 }
+		] 
+	},
+	{
+		"id": 2,
+		"nombre": "C",
+		"enlaces": [
+			{ "id": 4,
+			"coste":  10 },
+			{ "id": 1,
+			  "coste": 2 },
+			{ "id": 5,
+			  "coste": 2 }
+		] 
+	},
+	{
+		"id": 3,
+		"nombre": "D",
+		"enlaces": [{
+			"id": 2,
+			"coste":  6 
+		},
+		{
+			"id": 6,
+			"coste":  14
+		},
+		{
+			"id": 5,
+			"coste":  7
+		}	
+	] 
+	},
+	{
+		"id": 4,
+		"nombre": "E",
+		"enlaces": [
+			{ "id": 7, "coste": 4 },
+			{ "id": 8, "coste": 6 }
+		]
+	},
+	{
+		"id": 5,
+		"nombre": "F",
+		"enlaces": [{
+			"id": 4,
+			"coste": 10
+		}] 
+	},
+	{
+		"id": 6,
+		"nombre": "G",
+		"enlaces": [
+			{"id": 5, "coste": 3},
+			{"id": 8, "coste": 5}
+		]
+	},
+	{
+		"id": 7,
+		"nombre": "H",
+		"enlaces": []
+	},
+	{
+		"id": 8,
+		"nombre": "I",
+		"enlaces": [{"id": 7, "coste": 3}]
+	}
+
+
+]

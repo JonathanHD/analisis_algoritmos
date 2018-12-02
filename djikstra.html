@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Djikstra</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Montserrat');
+	</style>
+	<link rel="stylesheet" href="./css/loader.min.css">
+	<link rel="stylesheet" href="./css/dijkstra.css">
+
+</head>
+<body id="body">
+	<div id="loader-wrapper">
+		<div class="all">
+			<div class="spinLoad circulo contentLoad" id="spinLoad">
+				<img src="./img/escom.png">
+			</div>
+		</div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	<div class="panel" id="panel">
+		<div class="opciones">
+			<div class="opciones">
+				<div class="text" >Fin:</div>
+				<input type="text" id="fin"  tabindex="0">
+			</div>
+			<div class="opciones">
+				<div class="text">Inicio:</div>
+				<input type="text" id="inicio"  tabindex="2">
+			</div>
+			<input type="button" name="Enviar" value="Enviar" onclick="enviar()" style="margin:20px auto;padding: 10px">
+		</div>
+		<div id="json" class="json">
+			<div class="text">
+				Ingresa los nodos en formato json:
+			</div>
+			<textarea  tabindex="1" style="text-align:center" class="form-control" id="array" rows="3" cols="50" rows="70"></textarea>
+		</div>
+	</div>
+	<div id="showContent" onclick="showHide()">-></div>
+	<canvas id="canvas">
+		NO HAY CANVAS EN ESTE NAVEGADOR
+	</canvas>
+	<script src="./js/dijkstra.js"></script>
+</body>
+</html>
